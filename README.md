@@ -25,9 +25,8 @@ No live demo link yet.
 
 - Open a command line terminal (Git bash preferrably) and navigate to a directory where you would like to save the work folder using cd.
 - Clone the repository with git clone https://github.com/yohannesdagnachew/maths-magicians/
-- To get the curent working tree, git fetch --all, then checkout to "setup" branch.
-- Finally, display the content of the ./public/index.html by starting the webpack dev server doing the following:
-  - navigate to the root directory with a command line terminal
+- To get the curent working tree, git fetch --all, then checkout to "dev" branch.
+  - npm install
   - run 'npm start'
 
 ### Install
