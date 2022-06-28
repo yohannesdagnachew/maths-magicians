@@ -1,0 +1,58 @@
+:root {
+  --orange: #ff801e;
+  --white: #e1dada;
+  --gray: gray;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.cal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 25rem;
+  border-radius: 1rem;
+}
+
+.disply-input {
+  display: flex;
+  width: 15rem;
+  height: 2.8125rem;
+  background-color: var(--gray);
+  color: black;
+  font-size: 1.25rem;
+  padding-right: 0;
+  outline: none;
+  border: none;
+  text-align: right;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+button {
+  padding: 16px;
+  cursor: pointer;
+  width: 3.75rem;
+}
+
+.zero {
+  width: 120px;
+}
+
+.oprator {
+  background-color: var(--orange);
+}
