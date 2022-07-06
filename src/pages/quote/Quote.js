@@ -1,9 +1,9 @@
 import React from 'react';
-import './Quote.css';
+import styles from './Quote.module.css';
 
 export default function Quote() {
   return (
-    <div className="quote">
+    <div className={styles.quote}>
       <p>
         Mathematics are the result of mysterious powers which no one
         understands, and which the unconscious recognition of beauty
