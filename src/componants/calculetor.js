@@ -19,76 +19,81 @@ function Calculator() {
     : 0
 }`;
   return (
-    <div className="calculator">
-      <div className="output__section">
-        <div className="current">{results}</div>
+    <div className="calcDiv">
+      <div className="title">
+        <h1 className="letsdo">Lets do some math</h1>
       </div>
+      <div className="calculator">
+        <div className="output__section">
+          <div className="current">{results}</div>
+        </div>
 
-      <div className="input__section">
-        <div className="output-ul">
-          <button
-            type="button"
-            onClick={eventHandler}
-            onKeyDown={eventHandler}
-            id="clear"
-            className="key"
-          >
-            Ac
-          </button>
-          <button type="button" onClick={eventHandler} id="plus-minus" className="key">
-            +/-
-          </button>
-          <button type="button" onClick={eventHandler} id="percent" className="key">
-            %
-          </button>
-          <button type="button" onClick={eventHandler} id="divide" className="key action">
-            ÷
-          </button>
-          <button type="button" onClick={eventHandler} className="key">
-            7
-          </button>
-          <button type="button" onClick={eventHandler} className="key">
-            8
-          </button>
-          <button type="button" onClick={eventHandler} className="key">
-            9
-          </button>
-          <button type="button" onClick={eventHandler} id="times" className="key action">
-            x
-          </button>
-          <button type="button" onClick={eventHandler} className="key">
-            4
-          </button>
-          <button type="button" onClick={eventHandler} className="key">
-            5
-          </button>
-          <button type="button" onClick={eventHandler} className="key">
-            6
-          </button>
-          <button type="button" onClick={eventHandler} id="minus" className="key action">
-            -
-          </button>
-          <button type="button" onClick={eventHandler} className="key">
-            1
-          </button>
-          <button type="button" onClick={eventHandler} className="key">
-            2
-          </button>
-          <button type="button" onClick={eventHandler} className="key">
-            3
-          </button>
-          <button type="button" onClick={eventHandler} id="plus" className="key action">
-            +
-          </button>
-          <button type="button" onClick={eventHandler} className="key zero">
-            0
-          </button>
-          <button type="button" onClick={eventHandler} className="key decimal">
-            .
-          </button>
-          <button type="button" onClick={eventHandler} id="equals" className="key action">
-            =
-          </button>
+        <div className="input__section">
+          <ul className="output-ul">
+            <button
+              type="button"
+              onClick={eventHandler}
+              onKeyDown={eventHandler}
+              id="clear"
+              className="key"
+            >
+              AC
+            </button>
+            <button type="button" onClick={eventHandler} id="plus-minus" className="key">
+              +/-
+            </button>
+            <button type="button" onClick={eventHandler} id="percent" className="key">
+              %
+            </button>
+            <button type="button" onClick={eventHandler} id="divide" className="key action">
+              ÷
+            </button>
+            <button type="button" onClick={eventHandler} className="key">
+              7
+            </button>
+            <button type="button" onClick={eventHandler} className="key">
+              8
+            </button>
+            <button type="button" onClick={eventHandler} className="key">
+              9
+            </button>
+            <button type="button" onClick={eventHandler} id="times" className="key action">
+              x
+            </button>
+            <button type="button" onClick={eventHandler} className="key">
+              4
+            </button>
+            <button type="button" onClick={eventHandler} className="key">
+              5
+            </button>
+            <button type="button" onClick={eventHandler} className="key">
+              6
+            </button>
+            <button type="button" onClick={eventHandler} id="minus" className="key action">
+              -
+            </button>
+            <button type="button" onClick={eventHandler} className="key">
+              1
+            </button>
+            <button type="button" onClick={eventHandler} className="key">
+              2
+            </button>
+            <button type="button" onClick={eventHandler} className="key">
+              3
+            </button>
+            <button type="button" onClick={eventHandler} id="plus" className="key action">
+              +
+            </button>
+            <button type="button" onClick={eventHandler} className="key zero">
+              0
+            </button>
+            <button type="button" onClick={eventHandler} className="key decimal">
+              .
+            </button>
+            <button type="button" onClick={eventHandler} id="equals" className="key action">
+              =
+            </button>
+          </ul>
         </div>
       </div>
     </div>

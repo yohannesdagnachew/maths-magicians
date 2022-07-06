@@ -1,0 +1,13 @@
+.paragraph {
+  padding: 8px 90px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.375rem;
+}
