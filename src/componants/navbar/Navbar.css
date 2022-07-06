@@ -1,0 +1,25 @@
+.nav-bar {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  background-color: #333;
+  align-items: center;
+  height: 4.375rem;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-logo {
+  font-size: 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
