@@ -9,8 +9,7 @@
 - React
 
 ## Live Demo
-
-No live demo link yet.
+[Herokuapp live](https://math-magic-cal.herokuapp.com/)
 
 ## Getting Started
 
